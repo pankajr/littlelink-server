@@ -147,7 +147,7 @@ services:
       # - THESTORYGRAPH=https://www.thestorygraph.com/
       # - GEOCACHING=https://www.geocaching.com/play
     ports:
-      - 8080:3000
+      - 8090:3000
     restart: unless-stopped
     security_opt:
       - no-new-privileges:true
