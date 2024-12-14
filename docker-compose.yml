@@ -146,6 +146,7 @@ services:
       # - TIDAL=https://tidal.com/
       # - THESTORYGRAPH=https://www.thestorygraph.com/
       # - GEOCACHING=https://www.geocaching.com/play
+      - READCV=read.cv/pankajr
     ports:
       - 8090:3000
     restart: unless-stopped
